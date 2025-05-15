@@ -1,0 +1,53 @@
+body {
+    color:rgb(255, 255, 255);
+    font-family: "Ancizar Serif";
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgb(85, 155, 235);
+    background-size: cover;             
+    background-position: center;
+    margin: 0px;
+    color: white;
+  }
+
+#logoelbarrio{
+  width: 23%;
+  height: auto;
+  display: flex; /* Alinea los elementos en fila */
+  align-items: center; /* Centra verticalmente el logo y el texto */
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  gap: 10px; /*  Espacio entre el logo y el texto */
+  margin-left: 40px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
+
+#colonav {
+  margin-left: 15px; /* Elimina márgenes adicionales */
+  margin-top: 19px ; /* Ajusta este valor para subir el texto */
+  color: white;
+
+}
+
+#navtext{
+    color:black;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(255, 255, 255, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4); 
+
+    font-size: 25px;
+}
+
+.carousel{
+    margin-left: -7px;
+    margin-right: -6px; 
+    padding: 0%;
+    margin-top: 40px; /* Ajusta el valor según lo que necesites */
+}
+
+
