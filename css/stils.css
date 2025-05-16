@@ -48,6 +48,21 @@ body {
     margin-right: -6px; 
     padding: 0%;
     margin-top: 40px; /* Ajusta el valor según lo que necesites */
+    position: relative;
+    top: -60px;
 }
 
 
+#color{
+  color:  rgb(255, 0, 0);
+  font-size: 40px;
+  
+ 
+}
+
+.titulo{
+  z-index: 2;
+
+ 
+ 
+}
