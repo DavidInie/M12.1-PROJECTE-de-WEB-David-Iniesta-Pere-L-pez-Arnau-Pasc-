@@ -15,7 +15,7 @@ body {
   }
 
 #logoelbarrio{
-  width: 23%;
+  width: 20%;
   height: auto;
   display: flex; /* Alinea los elementos en fila */
   align-items: center; /* Centra verticalmente el logo y el texto */
@@ -61,9 +61,6 @@ body {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
                0 0 10px rgba(255, 255, 255, 0.6), 
                0 0 15px rgba(255, 255, 255, 0.4); 
-
-
- 
 }
 
 .titulo{
@@ -95,7 +92,80 @@ body {
 .inicio{
   color: rgb(0, 0, 0);
   text-align: justify;
-  font-size: px
+  font-size: 20px;
+  
+}
 
 
+#logo{
+  width: 75%;
+  height: auto;
+  margin-bottom: 5px;
+  margin-top: -72px;
+}
+
+#ONGDPAElBarrio{
+  width: 80px;
+  margin-top: 10px;
+}
+
+#ONGDPAElBarrio2{
+  width: 92px;
+  margin-top: 10px;
+
+}
+
+#parrafo{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 50px;
+  
+}
+
+#parrafocenter{
+  text-align: center;
+   color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 8px;
+
+}
+
+#parrafocenter2{
+  text-align: center;
+   color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+#Sitio{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
+  text-shadow: 0 0 5px rgba(108, 226, 255, 0.8), 
+               0 0 10px rgba(0, 247, 255, 0.6), 
+               0 0 15px rgba(0, 225, 255, 0.4); 
+  
+}
+
+
+#ONGDPAElBarrio3{
+  width: 100%;
+}
+
+.footer{
+  background-color: rgb(0, 0, 0);
+}
+
+#log{
+  width: 15%;
+}
+
+#log1{
+  width: 15%;
+  margin-left:40px;
 }
