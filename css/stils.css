@@ -155,6 +155,7 @@ body {
 
 #ONGDPAElBarrio3{
   width: 100%;
+  margin-top: 5px;
 }
 
 .footer{
@@ -167,5 +168,8 @@ body {
 
 #log1{
   width: 15%;
-  margin-left:40px;
+}
+
+#mundo{
+  width: 45%; 
 }
