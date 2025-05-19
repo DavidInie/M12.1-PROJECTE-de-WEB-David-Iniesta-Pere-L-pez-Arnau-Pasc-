@@ -45,18 +45,24 @@ body {
 
 .carousel{
     margin-left: -7px;
-    margin-right: -6px; 
+    margin-right: -17px; 
     padding: 0%;
     margin-top: 40px; /* Ajusta el valor según lo que necesites */
     position: relative;
-    top: -60px;
+    top: -40px;
+  
 }
 
 
 #color{
-  color:  rgb(255, 0, 0);
-  font-size: 40px;
-  
+  color:  rgb(0, 0, 0);
+  font-size: 45px;
+  font-family: "Rubik";
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(255, 255, 255, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4); 
+
+
  
 }
 
@@ -65,4 +71,31 @@ body {
 
  
  
+}
+
+#donar-btn {
+      background-color: #ff6b6b;
+      color: rgb(0, 0, 0);
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(255, 255, 255, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4); 
+      padding: 15px 30px;
+      border: none;
+      border-radius: 15px;
+      font-size: 23px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      background-color:rgb(85, 155, 235);
+      margin-top: 10px;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+    }
+
+.inicio{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: px
+
+
 }
