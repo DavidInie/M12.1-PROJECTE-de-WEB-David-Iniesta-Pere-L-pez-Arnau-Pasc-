@@ -173,3 +173,164 @@ body {
 #mundo{
   width: 45%; 
 }
+
+
+
+
+
+
+/* === Sección: Colabora con Nosotros === */
+
+.colabora {
+  padding: 50px 20px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.colabora .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.colabora h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.colabora .intro {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.colabora .opciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.colabora .opcion {
+  flex: 1 1 30%;
+  background-color: #eef3f7;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.colabora .opcion h2 {
+  margin-bottom: 10px;
+}
+
+.colabora .formulario {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.colabora .formulario h3 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+.colabora .formulario label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.colabora .formulario input,
+.colabora .formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.colabora .formulario button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.colabora .formulario button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .colabora .opciones {
+    flex-direction: column;
+  }
+}
+
+
+
+
+.seccion-contacto {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+  color:rgb(0, 0, 0)
+}
+
+.contenedor-contacto {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.formulario-contacto .campo {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.formulario-contacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+}
+
+.boton {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #e55d00;
+}
+
+#contactoo{
+  color:black;
+  background-color: #f8f8f8;
+  margin-top: -;
+}px
