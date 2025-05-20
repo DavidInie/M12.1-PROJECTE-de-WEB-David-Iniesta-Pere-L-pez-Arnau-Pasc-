@@ -338,11 +338,14 @@ body {
   color: rgb(0, 0, 0);
   text-align: justify;
   font-size: 20px;
-  margin-top: -40px;
 }
 
 #som{
   margin-left: 210px;
+  text-shadow:  0 0 5px rgba(92, 92, 92, 0.8), 
+                0 0 10px rgba(99, 99, 99, 0.6), 
+               0 0 15px rgba(39, 39, 39, 0.319); 
+  
 }
 
 .Mision{
@@ -351,8 +354,7 @@ height: 650px; /* o lo que quieras */
   
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center top;
- 
+  background-position: center top; 
 }
 
 #Misionleter{
@@ -385,7 +387,7 @@ height: 650px; /* o lo que quieras */
   color: rgb(0, 0, 0);
   text-align: justify;
   font-size: 20px;  
-  margin-left: 20px;
+  margin-left: 15px;
 
   
 
@@ -393,7 +395,7 @@ height: 650px; /* o lo que quieras */
 
 #visionimg{
   border-radius: 20px;
-  width: 100%;
+  width: 90%;
   margin-top: 25px; 
     box-shadow:  0 0 5px rgba(255, 218, 83, 0.8), 
                 0 0 10px rgba(255, 185, 73, 0.6), 
@@ -404,9 +406,13 @@ height: 650px; /* o lo que quieras */
 
 #fotogrupo{
  width: 85%;
- border-radius: 20px;
+ border-radius: 25px;
  margin-top: 10px;
  margin-left: 100px;
+ box-shadow:  0 0 5px rgba(92, 92, 92, 0.8), 
+              0 0 10px rgba(99, 99, 99, 0.6), 
+              0 0 15px rgba(39, 39, 39, 0.319); 
+ margin-bottom: 10px;   
 
 }
 
@@ -472,5 +478,67 @@ height: 650px; /* o lo que quieras */
 }
 
 .Valores{
-  color:black
+  color:black;
+}
+
+#Valorestit{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;;
+  text-shadow: 0 0 5px rgba(116, 230, 255, 0.8), 
+               0 0 10px rgba(255, 0, 0, 0.6), 
+               0 0 15px rgba(80, 214, 255, 0.4); 
+
+}
+
+.inicipro{
+  background-color: #fff3e0; 
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 20px;
+  
+}
+
+#fotollave{
+ width: 95%;
+ border-radius: 25px;
+ margin-top: 20px;
+ margin-left: 100px;
+ box-shadow:  0 0 5px rgba(92, 92, 92, 0.8), 
+              0 0 10px rgba(99, 99, 99, 0.6), 
+              0 0 15px rgba(39, 39, 39, 0.319); 
+ margin-bottom: 50px;
+
+}
+
+.education{
+ background-color: #f0f7ff;
+}
+
+
+
+#iniciproS{
+   margin-top: 50px;
+   margin-left: 210px;
+
+}
+
+.Inserción{
+background-image: url("../img/entrevista.jpg");
+height: 600px; /* o lo que quieras */
+  
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top; 
+}
+
+#Inserciónn{
+   text-align: center;
+  margin-top: 10px;
+  color: #000000;
+  text-shadow: 2px 2px 5px rgba(255, 226, 131, 0.849);
+  font-size: 48px;
+  margin-top: 35px;
+  
+
 }
