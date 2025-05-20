@@ -176,9 +176,6 @@ body {
 
 
 
-
-
-
 /* === Sección: Colabora con Nosotros === */
 
 .colabora {
@@ -328,9 +325,152 @@ body {
 .boton:hover {
   background-color: #e55d00;
 }
-
+/*Contactoo*/
 #contactoo{
   color:black;
   background-color: #f8f8f8;
-  margin-top: -;
-}px
+  margin-top: -25px;
+}
+
+
+.iniciosom{
+  background-image: url("../img/white-low-poly-background-338.jpg");
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 20px;
+  margin-top: -40px;
+}
+
+#som{
+  margin-left: 210px;
+}
+
+.Mision{
+background-image: url("../img/cartel.jpg");
+height: 650px; /* o lo que quieras */
+  
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+ 
+}
+
+#Misionleter{
+  max-width: 700px; 
+  margin: auto;   
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5); /* fondo solo para el texto */
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#Misionletercen{
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-size: 48px;
+  
+}
+
+#vision{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 20px;  
+  margin-left: 20px;
+
+  
+
+}
+
+#visionimg{
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 25px; 
+    box-shadow:  0 0 5px rgba(255, 218, 83, 0.8), 
+                0 0 10px rgba(255, 185, 73, 0.6), 
+               0 0 15px rgba(249, 164, 16, 0.4);
+   
+
+} 
+
+#fotogrupo{
+ width: 85%;
+ border-radius: 20px;
+ margin-top: 10px;
+ margin-left: 100px;
+
+}
+
+#titvision{
+   color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  text-shadow:  0 0 5px rgba(255, 218, 83, 0.8), 
+                0 0 10px rgba(255, 185, 73, 0.6), 
+               0 0 15px rgba(249, 164, 16, 0.4); 
+
+
+}
+
+
+
+/* Sección de competencias */
+.competencies-section {
+    margin-top: 2rem; /* Espaciado superior */
+    padding-top: 1rem; /* Espaciado interno superior */
+    border-top: 2px dashed #000000; /* Línea superior discontinua */
+}
+
+.competencies-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+  }
+  
+  .competencia {
+    margin-bottom: 1rem;
+  }
+  
+  .competencia .label {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .competencia i {
+    color: #000;
+    font-size: 1.2rem;
+  }
+  
+  .progress-bar {
+    background-color: #ff0000;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #00cfff;
+    height: 10px;
+    border-radius:10px;
+}
+
+.Valores{
+  color:black
+}
