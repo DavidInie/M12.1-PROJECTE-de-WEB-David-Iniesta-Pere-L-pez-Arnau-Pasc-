@@ -16,33 +16,33 @@
 </head>
 <body>
 
- <div class="header"><!--abre div de header-->
+    <div class="header"><!--abre div de header-->
     <div class="container-fluid"> <!--abre div de container text-center-->
         <div class="row"><!--abre row-->
            <div class="col-sm-6 col-lg-6"><!--sm tamaño movil lg tamaño ordenador, abre div logo-->
-            <a href="index.html"><img id="logoelbarrio" src="../img/Logo_elbarrio.png" alt="Imagen Charmeleon"></a>
+            <a href="index.html"><img id="logoelbarrio" src="../img/Logo_elbarrio.png" alt="Charmeleon Image"></a>
           </div><!--cierra div texto-->
 
         <div class="col-sm-6 col-lg-6"><!--sm tamaño movil lg tamaño ordenador, abre div nav-->
             <nav id="colonav" class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a id="navtext" class="navbar-brand" href="index.html"><strong>Inicio</strong></a>
+                <a id="navtext" class="navbar-brand" href="index_en.html"><strong>Home</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a id="navtext"class="navbar-brand" href="quienesomos.html"><strong>Quiénes somos</strong></a>
+                <a id="navtext"class="navbar-brand" href="aboutus.html"><strong>About Us</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a id="navtext"class="navbar-brand" href="proyecto.html"><strong>Proyectos</strong></a>
+                <a id="navtext"class="navbar-brand" href="projects.html"><strong>Projects</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a id="navtext"class="navbar-brand" href="colabora.html"><strong>Colabora</strong></a>
+                <a id="navtext"class="navbar-brand" href="cola.html"><strong>Collaborate</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a id="navtext"class="navbar-brand" href="contacto.html"><strong>Contacto</strong></a>
+                <a id="navtext"class="navbar-brand" href="contac.html"><strong>Contact</strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,8 +51,8 @@
                         <img id="mundo" src="../img/earth-americas-solid (1).svg" alt="Logo">
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../en/cola.html">English</a></li>
-                        <li><a class="dropdown-item" href="../cat/col.html">Català</a></li>
+                        <li><a class="dropdown-item" href="../es/contacto.html">Español</a></li>
+                        <li><a class="dropdown-item" href="../cat/contacta.html">Catalan</a></li>
                     </ul>
                 </div>
               </div><!--cierra div texto-->
@@ -62,64 +62,56 @@
         </div><!--cierra row -->
     </div><!--cierra div de container fluid-->
 </div><!--cierra div de header-->
-
-
-  <section class="colabora">
-    <div class="container">
-      <h1>Colabora con Nosotros</h1>
-      <p class="intro">Tu apoyo es esencial para que sigamos generando impacto. Descubre cómo puedes formar parte del cambio.</p>
-
-      <div class="opciones">
-        <div class="opcion">
-          <h2>💸 Dona</h2>
-          <p>Haz una contribución económica para apoyar nuestros proyectos. Cada donación cuenta.</p>
-        </div>
-        <div class="opcion">
-          <h2>🤝 Sé Voluntario</h2>
-          <p>Únete a nuestro equipo como voluntario y aporta tu tiempo y habilidades.</p>
-        </div>
-        <div class="opcion">
-          <h2>🏢 Patrocina</h2>
-          <p>Colabora como empresa o institución para impulsar nuestros programas.</p>
-        </div>
+    <main>
+    <section id="contacto" class="seccion-contacto">
+      <div class="contenedor-contacto">
+        <h1 id="contactoo">Contact</h1>
+        <h2>Shall we talk?</h2>
+        <p>Do you have any questions or want to know more about us? Write to us.</p>
+        <form action="#" method="post" class="formulario-contacto">
+          <div class="campo">
+            <label for="nombre">Name</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="campo">
+            <label for="mensaje">Message</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="boton">Send</button>
+        </form>
       </div>
+    </section>
+  </main>
 
-      <form class="formulario" action="#" method="post">
-        <h3>¿Quieres colaborar? Escríbenos</h3>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" required />
-
-        <label for="email">Correo electrónico</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
+  <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-sm-12 col-lg-12">
+                   <h2 id="Sitio"><strong>Helping doesn’t cost much. Living without help does.</strong></h2>
+                </div>    
+                <div class="col-sm-12 col-lg-12">
+                   <p>Barcelona, Spain | dpaelbarrio@elbarrio.com | +34 658.15.98.25</p>
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                   <img id="log1" src="../img/instagram-brands (1).svg">
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                   <img id="log" src="../img/facebook-brands.svg">
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                   <img id="log" src="../img/twitter-brands.svg">
+                </div>
+            </div>
+        </div>  
     </div>
-  </section>
-  <div class="footer"><!--abre div de header2-->
-        <div class="container-fluid"> <!--abre div de container text-fluid-->
-            <div class="row"><!--abre row-->
-                 <div class="col-sm-12 col-lg-12"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
-                   <h2 id="Sitio"><strong>Ayudar no cuesta mucho. Vivir sin ayuda, sí.</strong></h2>
-                </div><!--cierra div texto + img-->    
-                <div class="col-sm-12 col-lg-12"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
-                   <p> Barcelona, España | dpaelbarrio@elbarrio.com | +34 658.15.98.25</p>
-                </div><!--cierra div texto + img--> 
-                <div class="col-sm-4 col-lg-4"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
-                   <img id="log1" src="../img/instagram-brands (1).svg"></i>
-                </div><!--cierra div texto + img--> 
-                <div class="col-sm-4 col-lg-4"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
-                   <img id="log" src="../img/facebook-brands.svg"></i>
-                </div><!--cierra div texto + img--> 
-                <div class="col-sm-4 col-lg-4"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
-                   <img id="log" src="../img/twitter-brands.svg"></i>
-                </div><!--cierra div texto + img--> 
-                
-            </div><!--cierra row-->
-        </div><!--cierra div de container text-fluid-->  
-    </div><!--cierra div de header2-->
-</body>
-</html>
+
+
+
+
+
+
+
