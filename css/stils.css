@@ -318,10 +318,11 @@ body {
   color: white;
   border: none;
   padding: 12px 25px;
-  font-size: 1rem;
+  font-size: 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: -350px;
 }
 
 .boton:hover {

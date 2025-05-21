@@ -63,29 +63,44 @@
     </div><!--cierra div de container fluid-->
 </div><!--cierra div de header-->
     <main>
-    <section id="contacto" class="seccion-contacto">
-      <div class="contenedor-contacto">
-        <h1 id="contactoo">Contacto</h1>
-        <h2>¿Hablamos?</h2>
-        <p>¿Tienes alguna pregunta o quieres saber más sobre nosotros? Escríbenos.</p>
-        <form action="#" method="post" class="formulario-contacto">
-          <div class="campo">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required />
-          </div>
-          <div class="campo">
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="campo">
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="boton">Enviar</button>
-        </form>
-      </div>
-    </section>
-  </main>
+
+  <div id="contacto" class="seccion-contacto"><!--abre div de header2-->
+        <div class="contenedor-contacto"> <!--abre div de container text-fluid-->
+            <div class="row"><!--abre row-->
+                <div class="col-sm-12 col-lg-12"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
+                      <h1 id="contactoo">Contacto</h1>
+                      <h2>¿Hablamos?</h2>
+                      <p>¿Tienes alguna pregunta o quieres saber más sobre nosotros? Escríbenos.</p>
+                 </div>
+                 <div class="col-sm-12 col-lg-6"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
+                   <form action="#" method="post" class="formulario-contacto">
+                   <div class="campo">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" id="nombre" name="nombre" required />
+                   </div>
+                   <div class="campo">
+                      <label for="email">Correo electrónico</label>
+                      <input type="email" id="email" name="email" required />
+                    </div>
+                    </form>
+                </div><!--cierra div texto + img-->
+                
+                <div class="col-sm-12 col-lg-6"><!--sm tamaño movil lg tamaño ordenador, abre div texto+img-->
+                     <form action="#" method="post" class="formulario-contacto">
+                        <div class="campo">
+                          <label for="mensaje">Mensaje</label>
+                          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="boton">Enviar</button>
+                      </form>
+                </div><!--cierra div texto + img-->
+
+                
+
+              </div><!--cierra div texto-->
+                
+        </div><!--cierra row-->
+  </div><!--cierra div de container text-fluid-->  
 
   <div class="footer"><!--abre div de header2-->
         <div class="container-fluid"> <!--abre div de container text-fluid-->
