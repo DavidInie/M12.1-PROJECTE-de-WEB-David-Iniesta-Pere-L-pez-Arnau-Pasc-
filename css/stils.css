@@ -56,7 +56,7 @@ body {
 
 #color{
   color:  rgb(0, 0, 0);
-  font-size: 45px;
+  font-size: 55px;
   font-family: "Rubik";
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
                0 0 10px rgba(255, 255, 255, 0.6), 
@@ -71,7 +71,7 @@ body {
 }
 
 #donar-btn {
-      background-color: #ff6b6b;
+      
       color: rgb(0, 0, 0);
       text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
                0 0 10px rgba(255, 255, 255, 0.6), 
@@ -95,6 +95,8 @@ body {
   font-size: 20px;
   
 }
+
+
 
 
 #logo{
@@ -341,10 +343,12 @@ body {
 }
 
 #som{
-  margin-left: 210px;
+  margin-top: 10px;
+  margin-left: 170px;
   text-shadow:  0 0 5px rgba(92, 92, 92, 0.8), 
                 0 0 10px rgba(99, 99, 99, 0.6), 
                0 0 15px rgba(39, 39, 39, 0.319); 
+  font-size: 40px;
   
 }
 
@@ -379,7 +383,7 @@ height: 650px; /* o lo que quieras */
   margin-top: 10px;
   color: #ffffff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  font-size: 48px;
+  font-size: 50px;
   
 }
 
@@ -388,8 +392,6 @@ height: 650px; /* o lo que quieras */
   text-align: justify;
   font-size: 20px;  
   margin-left: 15px;
-
-  
 
 }
 
@@ -400,8 +402,6 @@ height: 650px; /* o lo que quieras */
     box-shadow:  0 0 5px rgba(255, 218, 83, 0.8), 
                 0 0 10px rgba(255, 185, 73, 0.6), 
                0 0 15px rgba(249, 164, 16, 0.4);
-   
-
 } 
 
 #fotogrupo{
@@ -424,7 +424,6 @@ height: 650px; /* o lo que quieras */
   text-shadow:  0 0 5px rgba(255, 218, 83, 0.8), 
                 0 0 10px rgba(255, 185, 73, 0.6), 
                0 0 15px rgba(249, 164, 16, 0.4); 
-
 
 }
 
@@ -479,12 +478,13 @@ height: 650px; /* o lo que quieras */
 
 .Valores{
   color:black;
+  font-size: 20px;
 }
 
 #Valorestit{
   color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 40px;;
+  font-size: 50px;
   text-shadow: 0 0 5px rgba(116, 230, 255, 0.8), 
                0 0 10px rgba(255, 0, 0, 0.6), 
                0 0 15px rgba(80, 214, 255, 0.4); 
@@ -499,14 +499,23 @@ height: 650px; /* o lo que quieras */
   
 }
 
+
+#iniciproS{
+   text-shadow: 0 0 5px rgba(255, 189, 102, 0.8), 
+              0 0 10px rgba(255, 214, 101, 0.6), 
+              0 0 15px rgba(255, 174, 75, 0.319); 
+  font-size: 40px; 
+  margin-left: 20px;
+}
+
 #fotollave{
  width: 95%;
  border-radius: 25px;
- margin-top: 20px;
+ margin-top: 25px;
  margin-left: 100px;
- box-shadow:  0 0 5px rgba(92, 92, 92, 0.8), 
-              0 0 10px rgba(99, 99, 99, 0.6), 
-              0 0 15px rgba(39, 39, 39, 0.319); 
+ box-shadow:  0 0 5px rgba(255, 189, 102, 0.8), 
+              0 0 10px rgba(255, 214, 101, 0.6), 
+              0 0 15px rgba(255, 174, 75, 0.319); 
  margin-bottom: 50px;
 
 }
@@ -536,9 +545,61 @@ height: 600px; /* o lo que quieras */
    text-align: center;
   margin-top: 10px;
   color: #000000;
-  text-shadow: 2px 2px 5px rgba(255, 226, 131, 0.849);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
   font-size: 48px;
   margin-top: 35px;
   
+
+}
+
+.Historia{
+background-image: url("../img/20_09_08.webp");
+height: 650px; /* o lo que quieras */
+  
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top; 
+}
+
+
+
+#educationimg{
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 25px; 
+  margin-bottom: 25px; 
+    box-shadow: 0 0 5px rgba(134, 249, 255, 0.8), 
+                0 0 10px rgba(171, 251, 255, 0.6), 
+               0 0 15px rgba(69, 249, 255, 0.4); 
+} 
+
+
+#titeducation{
+   color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  text-shadow:  0 0 5px rgba(134, 249, 255, 0.8), 
+                0 0 10px rgba(171, 251, 255, 0.6), 
+               0 0 15px rgba(69, 249, 255, 0.4); 
+
+}
+
+#educationn{
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 20px;  
+  margin-right: 25px;
+
+
+}
+
+#Historiaaa{
+  margin-right: 450px;
+  font-size: 40px;
+  color:black;
+  text-shadow:  0 0 5px rgba(134, 249, 255, 0.8), 
+                0 0 10px rgba(0, 0, 0, 0.6), 
+               0 0 15px rgba(69, 249, 255, 0.4); 
 
 }
