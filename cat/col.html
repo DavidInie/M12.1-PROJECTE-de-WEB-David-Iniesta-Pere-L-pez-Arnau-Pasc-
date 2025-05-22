@@ -13,55 +13,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
  <div class="header">
-    <div class="container-fluid">
-        <div class="row">
-           <div class="col-sm-6 col-lg-6">
-            <a href="index.html"><img id="logoelbarrio" src="../img/Logo_elbarrio.png" alt="Imatge Charmeleon"></a>
-          </div>
+  <nav class="navbar">
+    <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap">
 
-        <div class="col-sm-6 col-lg-6">
-            <nav id="colonav" class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a id="navtext" class="navbar-brand" href="index_cat.html"><strong>Inici</strong></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Commuta la navegació">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a id="navtext" class="navbar-brand" href="quisom.html"><strong>Qui som</strong></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Commuta la navegació">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a id="navtext" class="navbar-brand" href="projectes.html"><strong>Projectes</strong></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Commuta la navegació">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a id="navtext" class="navbar-brand" href="col.html"><strong>Col·labora</strong></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Commuta la navegació">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a id="navtext" class="navbar-brand" href="contacta.html"><strong>Contacte</strong></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Commuta la navegació">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img id="mundo" src="../img/earth-americas-solid (1).svg" alt="Logo">
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../en/cola.html">English</a></li>
-                        <li><a class="dropdown-item" href="../es/colabora.html">Español</a></li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-        </nav>
+      <!-- IZQUIERDA: Logo -->
+      <div class="d-flex align-items-center">
+        <a href="index.html">
+          <img id="logoelbarrio" src="../img/Logo_elbarrio.png" alt="Logo">
+        </a>
+      </div>
+
+      <!-- DERECHA: Menú -->
+      <div class="d-flex flex-wrap align-items-center gap-4">
+        <a id="navtext" class="nav-link" href="index_cat.html"><strong>Inici</strong></a>
+        <a id="navtext" class="nav-link" href="quisom.html"><strong>Qui som</strong></a>
+        <a id="navtext" class="nav-link" href="projectes.html"><strong>Projectes</strong></a>
+        <a id="navtext" class="nav-link" href="col.html"><strong>Col·labora</strong></a>
+        <a id="navtext" class="nav-link" href="contacta.html"><strong>Contacte</strong></a>
+
+        <!-- Selector de idioma -->
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+            <img id="mundo" src="../img/earth-americas-solid (1).svg" alt="Idioma" style="height: 30px;">
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../en/index_en.html">English</a></li>
+            <li><a class="dropdown-item" href="../index.html">Català</a></li>
+          </ul>
         </div>
-        </div>
+      </div>
     </div>
+  </nav>
 </div>
+
 
   <section class="colabora">
     <div class="container">

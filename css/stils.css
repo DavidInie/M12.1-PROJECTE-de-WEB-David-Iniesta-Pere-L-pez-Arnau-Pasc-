@@ -1,6 +1,6 @@
 body {
     color:rgb(255, 255, 255);
-    font-family: "Ancizar Serif";
+    font-family: "Montserrat";
     text-align: center;
     overflow-x: hidden;
 }
@@ -15,15 +15,9 @@ body {
   }
 
 #logoelbarrio{
-  width: 20%;
+ width: 100px; /* o lo que necesites */
   height: auto;
-  display: flex; /* Alinea los elementos en fila */
-  align-items: center; /* Centra verticalmente el logo y el texto */
-  justify-content: center; /* Centra horizontalmente el contenedor */
-  gap: 10px; /*  Espacio entre el logo y el texto */
-  margin-left: 40px;
-  margin-top: -25px;
-  margin-bottom: -25px;
+  margin-left: 20px;
 }
 
 
@@ -57,7 +51,7 @@ body {
 #color{
   color:  rgb(0, 0, 0);
   font-size: 55px;
-  font-family: "Rubik";
+  font-family: "Montserrat";
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
                0 0 10px rgba(255, 255, 255, 0.6), 
                0 0 15px rgba(255, 255, 255, 0.4); 
